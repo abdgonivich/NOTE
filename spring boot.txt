@@ -1,0 +1,70 @@
+Spring Boot Projectの作り方
+・Spring Initializr
+・STS
+
+
+複雑なXMLが不要
+全て自動設定
+アノテーションベースのアプリ
+サーブレットコンテナ内包
+
+
+
+@EnableAutoConfiguration
+automatically configures application based on the dependencies, classpath, other beans and so forth.
+
+@SpringBootApplication
+entry point of the spring boot application
+this class has main method.
+
+
+naming pattern spring-boot-starter- *
+set of dependencies
+
+
+@SpringBootApplication
+　@EnableAutoConfiguration
+　@ComponentScan
+　@Configuration
+　
+
+@SpringBootApplication
+public class DemoApplication {
+   public static void main(String[] args) {
+      SpringApplication.run(DemoApplication.class, args);
+   }
+}
+
+spring-boot-maven-plugin
+実行可能jar
+依存関係すべて含めた
+java -jar で実行可能
+maven-assembly-pluginみたいなもん
+
+springのXML
+<beans>タグで始まる
+設定ファイル
+IOCコンテナに食わせる
+
+spring bootでxmlを扱う
+@SpringBootApplication
+@ImportResource("classpath:spring-sftp-config.xml")
+public class SpringConfiguration {
+  //
+}
+
+spring bootでjavaconfigを扱う
+@SpringBootApplicationがcomponent-scanで@Configurationがついたjavaconfigも勝手に登録する
+@Importで明示的にインポートできる
+
+Modelに追加したオブジェクトはHttpServletRequestにエクスポートされるため、JSPからはリクエストスコープのオブジェクトとしてアクセスできる
+
+入力チェック処理
+Bean Validation
+<artifactId>
+validation-api
+hibernate-validator
+
+Beanのプロパティに@NotNullや@Maxなどのアノテーションで制約をつける
+Form用のBeanに使うと良い
+

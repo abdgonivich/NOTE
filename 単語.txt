@@ -1,0 +1,28 @@
+walks A through B	AにBを説明する
+start from scratch	ゼロから始める
+wholly	完全に
+cake walk	たやすいこと
+convention over configuration	設定より規約
+Compatible with	両立する
+upfront	事前
+Production-ready	リリース可能な
+facilitate	～を促進する
+mean to do	～するつもり
+assume	推測する
+mock	模倣
+full stack engineer	インフラから画面まで何でもできるエンジニア
+in conjunction with	～と組み合わせて
+as before	従来通り
+using	～を使用して
+appendix	付録
+as-is	そのまま
+motivation	動機
+other than ～	～以外
+rather than ～	～よりむしろ
+constitute	～を構成する
+enterprise application	企業向けシステム
+enhancement	強化
+rationale	根拠
+JSR	Java Specification Requirement
+deprecated	非推奨
+mandatory	必須

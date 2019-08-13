@@ -1,0 +1,2 @@
+Disc100%の元のプロセスwsappxを起動させないためにやったこと
+https://www.jihosoft.com/windows-tips/fix-wsappx-100-disk-windows-10.html

@@ -1,0 +1,59 @@
+Micro Service
+stand-alone
+同期	非同期
+
+Undertow,jetty,tomcat	javaWebサーバ
+
+$ tree fortune
+fortune
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── org
+    │   │       └── creasys
+    │   │           └── FortuneApplication.java
+    │   └── resources
+    │       ├── application.properties
+    │       ├── static
+    │       └── templates
+    └── test
+        └── java
+            └── org
+                └── creasys
+                    └── FortuneApplicationTests.java
+
+12 directories, 6 files
+
+XML Schema-based configuration
+DTD
+
+@RestController
+@RequestMapping("/persons")
+class PersonController {
+
+    @GetMapping("/{id}")
+    public Person getPerson(@PathVariable Long id) {
+        // ...	
+    }
+}
+
+引数に着ける
+@PathVariable
+URI変数にアクセス
+
+@RequestBody
+リクエストボディにアクセス
+
+@ModelAttribute
+
+@RequestHeader
+@RequestParam
+@CookieValue
+@SessionAttribute
+
+
+POMの<pluginManagement>
+Build Path

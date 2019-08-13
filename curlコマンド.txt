@@ -1,0 +1,46 @@
+curl
+-o <file-name>	ファイル名を指定してダウンロード
+--output	
+
+-i	レスポンスのヘッダー情報も表示
+--include	
+
+-I	レスポンスのヘッダー情報のみ表示
+--head
+
+-v	リクエストのフローを詳細表示
+--verbose
+
+-L	リダイレクトも追跡
+--location
+
+-s	レスポンスの時間等を非表示
+--silent
+
+-H "header-info"	リクエストにヘッダー情報を追加
+--header
+
+-u <ID:PW>	BASIC認証
+--user
+
+-X <http-method>	httpメソッドを指定
+
+-d "key=value"	POSTでリクエスト
+--data	引数に指定したデータ(パラメータ)はリクエストボディに入る
+	デフォルトのContent-Typeはapplication/x-www-form-urlencoded
+
+
+POST時のContent-Typeによってリクエストボディに何が入るか決まる
+application/x-www-form-urlencoded	通常のパラメータを送るとき
+multipart/form-data	ファイルやバイナリファイルを送るとき
+application/xml	XMLデータを送るとき
+application/json	JSONを送るとき
+
+curlでPOST
+curl -d "key=value"  http://localhost:8080/test.php
+curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' http://localhost:8080/test.php 
+
+パラメータ
+GET	クエリストリング
+POST	リクエストボディ
+いずれもkey=value&...の形式
