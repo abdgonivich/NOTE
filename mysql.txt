@@ -1,5 +1,0 @@
-USE database_name;
-SELECT database();
-SHOW databases;
-SELECT Host, User FROM mysql.user;
-UNINSTALL COMPONENT 'file://component_validate_password';
