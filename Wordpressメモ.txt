@@ -1,0 +1,66 @@
+CMS		Contents Management System	コンテンツマネジメントシステム
+ダッシュボード
+アドミンバー（管理バー）
+投稿
+固定ページ
+WordPressb 5.3
+
+クラシックエディタ
+WordPress4.x系
+
+ブロックエディタ（Gutenberg）
+WordPress5.x系
+
+フォーマット＞テーブル
+
+ウィジェット
+プラグインやテーマに付随する
+
+ワイヤーフレーム
+Webサイトの設計図
+
+テーマのzipをダウンロード⇒アップロード⇒インストール
+
+WordPress Codex	オンラインマニュアル
+
+フロントエンド・ツール
+
+Wirify by Volkside既存の画面からワイヤーフレームを作る
+
+Website Explorer
+
+wordpress
+*　用途
+ブログシステム
+webサイト
+
+*　公式サイト
+wordpress.org
+
+*　オンラインマニュアル
+WordPress Codex
+
+*　知識
+HTML/CSS
+PHP/MySQL
+
+reset css	ブラウザ間のCSSの差異を無くす
+
+index.php
+single.php	投稿ページ
+page.php	固定ページ
+
+<!DOCTYPE HTML>
+<html lang="ja">
+
+テーマ作成
+wp-content/themesにフォルダを作成
+
+最小構成
+<theme-directory>
+index.php
+style.css
+
+<?php wp_head(); ?>』を『</head>』の前に記述する⇒システムやプラグインと連携できる
+
+全てのbreakpointの消し方
