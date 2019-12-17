@@ -64,3 +64,7 @@ style.css
 <?php wp_head(); ?>』を『</head>』の前に記述する⇒システムやプラグインと連携できる
 
 全てのbreakpointの消し方
+
+WordPress 関数
+have_posts()	次の記事があるか調べる
+the_post()	次の記事を取得する

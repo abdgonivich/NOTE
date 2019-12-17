@@ -21,6 +21,15 @@ navysheep5
 パスワード
 waioli7331
 
+■WordPress FTP
+Host
+navysheep5.sakura.ne.jp
+ユーザ名
+navysheep5
+パスワード
+waioli7331~_
+
+
 ■GROLIA
 http://mem.glo-ria.com/index.php
 ID:291682
