@@ -16,6 +16,8 @@ drstymh0227
 
 ■WordPress DB
 https://secure.sakura.ad.jp/rs/db/mysql5/index.php
+サーバ
+mysql742.db.sakura.ne.jp
 ユーザ名
 navysheep5
 パスワード
@@ -29,6 +31,8 @@ navysheep5
 パスワード
 waioli7331~_
 
+■WordPress SSH
+同上
 
 ■GROLIA
 http://mem.glo-ria.com/index.php
@@ -46,12 +50,12 @@ drstymh0227
 ■エリコのアドレス
 ciyuu26@gmail.com
 
-■日本語でWordPressを学べるオンライン学習サイト7選【初心者から抜け出そう】 | ネタワン
-https://netaone.com/wp/wordpress-lesson/
-日本語でWordPress（ワードプレス）を学べるオンライン学習サイトを紹介
+■さくら登録サービス
+	・さくらのメールボックス
+	サーバーコントロールパネル
+	URL             ： https://secure.sakura.ad.jp/rscontrol/
+	ドメイン名      ： abdgonivich.sakura.ne.jp
+	サーバパスワード： Defaultp@ss1
 
+	・さくらのVPS
 
-■udemyのwordpressおすすめ講座は買わなくてOK！買うなら2つだけ厳選紹介
-https://guuten.net/udemy-wordpress/
-WordPressのフリーランスのブログ
-udemyのwordpressのおすすめの無料動画を2つ紹介
