@@ -1,0 +1,8 @@
+root
+パスワード：Defaultp@ss1
+
+mysql
+
+データベース：sample_db
+ユーザー：abdgonivich
+パスワード：1234qwer
